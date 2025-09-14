@@ -4,9 +4,7 @@ const nextConfig = {
     domains: ['res.cloudinary.com', 'firebasestorage.googleapis.com'],
   },
   experimental: {
-    serverActions: {
-      allowedOrigins: ['localhost:3000'],
-    },
+
   },
 };
 
