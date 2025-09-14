@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google"; // Comentado
 import "./globals.css";
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
+// const inter = Inter({
+//   variable: "--font-inter",
+//   subsets: ["latin"],
+// }); // Comentado
 
 export const metadata: Metadata = {
   title: "Serviço Social / Alojamento - Sport Club Internacional",
@@ -19,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.variable} antialiased`}>
+      <body>
         {children}
       </body>
     </html>
