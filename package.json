@@ -1,0 +1,39 @@
+{
+  "name": "servico-social-inter",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@firebase/firestore": "^4.9.1",
+    "@headlessui/react": "^2.1.0",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/firebase": "^2.4.32",
+    "autoprefixer": "^10.4.21",
+    "cloudinary": "^2.4.0",
+    "firebase": "^10.13.0",
+    "lucide-react": "^0.400.0",
+    "next": "^14.2.0",
+    "next-cloudinary": "^6.13.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.5.0"
+  }
+}
